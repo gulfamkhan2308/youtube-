@@ -7,6 +7,7 @@
     padding: 0 70px; /* Adjusted padding */
     box-sizing: border-box; /* Include padding in width calculation */
     box-shadow: 0px 1px 2px #dfe6e9;
+    
     }
     .search{
       flex: 2;
@@ -24,12 +25,14 @@
       padding: 6px 10px;
       border: 1px solid black;
       margin-right: 15px;
+      border-radius: 15px;
     }
     .search label input{
       padding: 6px 10px;
       width: 80%;
       border: none;
       outline: none;
+      
     }
     .search label i {
       position: absolute;
@@ -40,6 +43,7 @@
       background: #b2bec3;
       border-left: 1px solid #b2bec3;
       border-bottom: 1px solid #b2bec3;
+      border-radius: 15px;
   }
   
     .r-icons i{
@@ -79,3 +83,32 @@
       font-size: 22px;
       margin-bottom: 5px; 
     }
+    
+    .ytvdset{
+      display: flex;
+      margin-top: 100px;
+      width: 30%;
+      align-content: space-between;
+      width: 100px;  /* Or whatever */
+  
+  margin: auto;  /* Magic! */
+  }
+.ytmenus{
+  width: 100%;
+  height: 50px;
+  background: rgba(223, 230green, 233blue, 0.2);
+  padding: 0px 100px;
+}
+.ytmenus a{
+  text-decoration: none;
+  color: #636e72;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.ytmenus a:first-child{
+border-bottom: 2px solid #636e72;
+}
+.ytmenus a:hover{
+  color: black;
+}
